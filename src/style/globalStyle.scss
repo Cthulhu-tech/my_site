@@ -6,9 +6,18 @@
 
 }
 
-body{
+body {
 
     width: 100%;
     min-height: 100vh;
+    background: linear-gradient(#f2c719, #f6bb23, white);
+    
+}
+
+
+@keyframes spin {
+
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
 
 }
