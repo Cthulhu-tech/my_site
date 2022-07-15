@@ -1,0 +1,1 @@
+export type cursorPosition =  {x: number, y: number}
