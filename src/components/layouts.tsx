@@ -6,6 +6,7 @@ export const Layouts = () => {
 
     return <>
     <Navigation/>
+    <div className="background_image"/>
     <Outlet/>
     <Footer/>
     </>

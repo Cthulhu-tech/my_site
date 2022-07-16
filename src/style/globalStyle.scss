@@ -14,3 +14,17 @@ body {
     font-family: Arial, sans-serif;
 
 }
+
+.background_image {
+    top: 0;    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+    position: fixed;
+    pointer-events: none;
+    background-size: 150px;
+    backface-visibility: hidden;
+    background: url('../assets/LoopableNoise.gif');
+
+}
