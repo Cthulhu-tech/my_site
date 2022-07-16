@@ -22,7 +22,7 @@
     &:hover::before, &:hover::after{
 
         width: 100%;
-        border-top: 1px solid white;
+        border-top: 1px solid gray;
         
     }
 
@@ -54,11 +54,12 @@
 
 .active {
 
-    color:  white;
+    color:  black;
+    font-weight: bold;
     &::before, &::after{
 
         width: 100%;
-        border-top: 1px solid white;
+        border-top: 1px solid black;
         
     }
 
