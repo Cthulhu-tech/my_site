@@ -1,5 +1,4 @@
 import { Draw } from "../utils/canvasAnimation/gradient";
-import { useCursorPosition } from "./useCursorPosition";
 import { useEffect, useRef } from "react";
 
 export const useCanvas = () => {
@@ -20,7 +19,7 @@ export const useCanvas = () => {
                 const handleResize = () => {
 
                     ctx.canvas.width = window.innerWidth;
-                    ctx.canvas.height = window.innerHeight - 60;
+                    ctx.canvas.height = window.innerHeight - 120;
 
                 }
         
