@@ -1,9 +1,10 @@
-import styles from './homeStyle.module.scss';
+import { useCanvas } from '../../hooks/useCanvas';
+import './homeStyle.scss';
 
 export const HomeView = () => {
 
-    return <main className={styles.main}>
+    const {canvasRef} = useCanvas();
 
-    </main>
+    return <canvas ref={canvasRef} className="canvas"/>
 
 }

@@ -28,3 +28,14 @@ body {
     background: url('../assets/LoopableNoise.gif');
 
 }
+
+.main{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 120px);
+
+}
