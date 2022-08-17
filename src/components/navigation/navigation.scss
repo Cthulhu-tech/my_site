@@ -1,10 +1,16 @@
 .navigation {
 
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 10;
     display: flex;
-    min-height: 60px;
+    position: sticky;
+    min-height: 120px;
     align-items: center;
-    justify-content: space-around;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
 
 }
 
@@ -54,12 +60,12 @@
 
 .active {
 
-    color:  black;
+    color:  white;
     font-weight: bold;
     &::before, &::after{
 
         width: 100%;
-        border-top: 1px solid black;
+        border-top: 1px solid white;
         
     }
 
@@ -71,5 +77,32 @@
     font-size: 1.5em;
     font-weight: bold;
     color: rgb(255, 255, 255);
+
+}
+
+.navigation__title{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: yellowgreen;
+    font-family: 'Silkscreen';
+
+}
+
+.container__links{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(100px, 100%, 600px);
+
+}
+
+.container__title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(100px, 100%, 300px);
 
 }
