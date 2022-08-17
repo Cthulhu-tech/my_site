@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'BIZ';
+    src: url("../font/AlumniSansCollegiateOne-Regular.ttf") format("truetype");
+}
+ 
+@font-face {
+
+    font-family: 'Silkscreen';
+    src: url("../font/Silkscreen-Regular.ttf") format("truetype");
+    
+}
+
 *{
 
     margin: 0;
@@ -11,7 +23,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'Silkscreen';
 
 }
 
@@ -33,9 +45,38 @@ body {
 
     width: 100%;
     display: flex;
+    position: relative;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     min-height: calc(100vh - 120px);
+
+}
+
+* {
+
+    scrollbar-width: auto;
+    scrollbar-color: #2e2e2e #ffffff;
+
+}
+
+
+*::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+*::-webkit-scrollbar-track {
+
+    background: #ffffff;
+
+}
+
+*::-webkit-scrollbar-thumb {
+
+    border-radius: 10px;
+    background-color: #24292f;
+    border: 3px solid #ffffff;
 
 }
