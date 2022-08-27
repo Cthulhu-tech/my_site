@@ -7,8 +7,11 @@ export const App = () => {
 
   return <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layouts/>}>
-        <Route index element={<HomeView/>}/>
+      <Route element={<Layouts/>}>
+        <Route path="/">
+          <Route index element={<HomeView/>}/>
+        </Route>
+        <Route path="/project" element={<HomeView/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

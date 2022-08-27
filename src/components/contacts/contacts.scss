@@ -3,8 +3,14 @@
     top: 50%;
     right: 0;
     z-index: 10;
+    display: flex;
+    height: 140px;
     position: fixed;
+    flex-direction: column;
+    background-color: #24292f;
     transform:translate(0, -50%);
+    border-radius: 10px 0 0 10px;
+    justify-content: space-around;
 
 }
 
@@ -14,10 +20,17 @@
     height: 50px;
     margin: 10px;
     padding: 5px;
+    transition: .5s;
     cursor: pointer;
     overflow: hidden;
     border-radius: 14px;
     background-color: #24292f;
+
+    &:hover {
+
+        background-color: gray;
+
+    }
 
 }
 
